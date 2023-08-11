@@ -1,0 +1,101 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins);
+
+*{
+    font-family: "Poppins";
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e6dbbe;
+}
+
+
+body .form-login{
+background-color: white;
+padding-left: 30px;
+padding-right: 30px;
+padding-bottom: 40px;
+padding-top: 10px;
+border-radius: 16px;
+}
+
+body .form-login h2{
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+body .form-login input{
+    margin-bottom: 15px;
+    width: 400px;
+    height: 40px;
+    padding-left: 15px;
+    border: none;
+    background-color: #d1cab6;
+    border-radius: 50px;
+    font-weight: 600;
+}
+
+body .form-login p{
+    text-align: right;
+}
+
+body .form-login p .link-lupa-password{
+text-decoration: none;
+color: #0f0f0f;
+font-size: 16px;
+font-weight: 400;
+}
+
+body .form-login .btn-login{
+    margin-top: 20px;
+    width: 100%;
+    border: none;
+    height: 40px;
+    border-radius: 50px;
+    background-color: #131dd4;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+body .form-login .btn-regis{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    border: none;
+    height: 40px;
+    border-radius: 50px;
+    background-color: #d1cab6;
+    color: black;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+body hr{
+    padding: 2px;
+    background-color: #0a0a0a;
+}
+
+body .form-login .btn-with{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    border: none;
+    height: 40px;
+    border-radius: 50px;
+    background-color: #0a0a0a;
+    color: rgb(241, 238, 238);
+    font-weight: 700;
+    cursor: pointer;
+}
+
+body .form-login .btn-with img{
+    width: 23px;
+    height: 23px;
+    margin-bottom: -7px;
+    margin-top: -16px;
+}
