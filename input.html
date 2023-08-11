@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>tag form input 01 html</title>
+</head>
+
+<body>
+
+ <h1>FORM INPUT</h1>
+
+ <form>
+
+    <label>Nama Lengkap</label><br>
+    <input type="text" name="name">
+    <br>
+
+    <label>Email</label><br>
+    <input type="email" name="Email">
+    <br>
+
+    <label>Tanggal Lahir</label><br>
+    <input type="date" name="tgl-lahir">
+    <br>
+
+    <label>Jam</label><br>
+    <input type="time" name="Jam">
+    <br>
+
+    <label>Umur</label><br>
+    <input type="number" name="Umur">
+    <br>
+
+    <label>Golongan Darah</label><br>
+    <input type="radio" name="Darah" value="A">
+    <label>A</label>
+    <input type="radio" name="Darah" value="B">
+    <label>B</label>
+    <input type="radio" name="Darah" value="AB">
+    <label>AB</label>
+    <input type="radio" name="Darah" value="O">
+    <label>O</label>
+    <br>
+
+    <label>Jenis Kelamin</label><br>
+    <select name="Jenis Kelamin">
+    <option value="-">PILIH-</option>
+    <option value="L">Laki-Laki</option>
+    <option value="P">Perempuan</option>    
+    </select>
+    <br>
+
+    <label>Warna Kesukaan</label><br>
+    <input type="color" name="color">
+    <br>
+ 
+    <label>Seberapa Cinta</label><br>
+    <input type="range" name="range" min="0" max="10">
+    <br>
+
+    <label>Nomor Telepon: (Format : 0821-9016-4160)</label><br>
+    <input type="tel" name="telp" pattern="(0-9)(4)-(0-9)(4)-(0-9)(4)">
+    <br>
+
+    <label>Hobi</label><br>
+    <input type="checkbox" name="Hobi" value="Renang">
+    <label>Renang</label>
+    <input type="checkbox" name="Hobi" value="Bersepeda">
+    <label>Bersepeda</label>
+    <input type="checkbox" name="Hobi" value="Berjalan">
+    <label>Berjalan</label>
+    <input type="checkbox" name="Hobi" value="Kuliner">
+    <label>Kuliner</label>
+    <br>
+
+    <label>Foto</label><br>
+    <input type="file" name="Foto">
+    <br>
+    <input type="button" onclick="showAlert('RAIHAN');"value="show me">
+    <br>
+
+    <button>Kirim Data</button>
+ </form>   
+</body>
+
+<script type="text/javascript">
+    function showAlert(name) {
+        return alert("HALO " + name)
+    }
+</script>
