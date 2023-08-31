@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+    <title>Registrasion</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -36,11 +36,11 @@
 </head>
 <body>
     <div class="row m-0 h-100">
-        <div class="col d-flex justify-content-center align-items-center hidden"><img src="image/undraw_login.svg.svg" class="w-75 h-75" alt=""></div>
+        
 
         <div class="col d-flex justify-content-center align-items-center">
             <form class="w-75">
-                <h3 class="text-center mb-4">LOGIN YOUR ACCOUNT</h3>
+                <h3 class="text-center mb-4">REGISTRASION YOUR ACCOUNT</h3>
                 <div class="mb-3">
                   <label for="exampleInputEmail1" class="form-label">Email address</label>
                   <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
@@ -51,13 +51,42 @@
                   <input type="password" class="form-control" id="exampleInputPassword1">
                 </div>
 
-                <button type="submit" class="btn btn-primary w-100">Login</button>
+                <div class="mb-4">
+                    <label for="exampleInputNewPassword1" class="form-label">New Password</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1">
+                  </div>
+
+                <button type="button" class="btn btn-primary w-100" data-bs-toggle="modal" data-bs-target="#exampleModal">REGISTRASION</button>
                 <div class="text-center mt-3">
-                <a href="registrasion.html" class="text-decoration-none">Registrasion</a>
+                <p>You have account? <a href="registrasion.html" class="text-decoration-none">Login</a></p>
                 </div>
               </form>
         </div>
+        <div class="col d-flex justify-content-center align-items-center hidden"><img src="image/Ragu __ Yiren [1] ✓ (TAHAP REVISI).jpg" class="w-75 h-75" alt=""></div>
     </div>
+    <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    Launch demo modal
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Your Account</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          Success
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Ok</button>
+        </div>
+      </div>
+    </div>
+  </div>
     <script src="js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
